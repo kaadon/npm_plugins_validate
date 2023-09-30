@@ -1,0 +1,40 @@
+{
+  "name": "@kaadon.com/database",
+  "version": "0.0.1",
+  "description": "kaadon.com's plugins database",
+  "keywords": [
+    "kaadon",
+    "plugins",
+    "DB",
+    "database"
+  ],
+  "main": "database/index.js",
+  "author": "kaadon.com",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src --out-dir database"
+  },
+  "files": [
+    "/database"
+  ],
+  "dependencies": {
+    "ioredis": "^5.3.2",
+    "mongodb": "^6.1.0",
+    "mysql": "^2.18.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kaadon/npm_plugins_database.git"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7",
+    "@babel/core": "^7",
+    "@babel/generator": "^7",
+    "@babel/parser": "^7",
+    "@babel/preset-env": "^7",
+    "dotenv": "^16.3.1"
+  }
+}
