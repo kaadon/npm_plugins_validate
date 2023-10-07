@@ -204,3 +204,5 @@ Temporary Items
 # Dist
 
 dist
+/test/
+/.run/

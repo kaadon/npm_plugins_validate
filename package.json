@@ -12,7 +12,8 @@
   "author": "kaadon.com",
   "license": "MIT",
   "scripts": {
-    "build": "babel src --out-dir database"
+    "build": "babel src --out-dir database",
+    "test": "yarn build && babel example --out-dir test"
   },
   "files": [
     "/database"

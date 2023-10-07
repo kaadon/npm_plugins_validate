@@ -1,11 +1,11 @@
 import Ioredis from "ioredis";
 import {redisConfig} from "../config/redisConfig";
-const redis = (config = {}) => {
+const redisDB = (config = {}) => {
   if (JSON.stringify(config) === '{}') config = redisConfig()
   return   new Ioredis(config)
 }
 
 
-export default redis
+export default redisDB
 
 
