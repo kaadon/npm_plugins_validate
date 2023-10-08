@@ -1,3 +1,4 @@
-// export {default as redisDB} from "./database/redisDB"
-// export {default as mysqlDB} from "./database/mysqlDB"
-export {default as mongoDB} from "./database/mongoDB"
+export * as EmailValidate from "./email"
+export * as MobileValidate from "./mobile"
+export * as MathValidate from "./math"
+export * as StringValidate from "./string"

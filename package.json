@@ -1,34 +1,27 @@
 {
-  "name": "@kaadon.com/database",
+  "name": "@kaadon.com/validate",
   "version": "0.0.1",
-  "description": "kaadon.com's plugins database",
+  "description": "kaadon.com's plugins validate",
   "keywords": [
     "kaadon",
     "plugins",
-    "DB",
-    "database"
+    "validate"
   ],
-  "main": "database/index.js",
+  "main": "validate/index.js",
   "author": "kaadon.com",
   "license": "MIT",
   "scripts": {
-    "build": "babel src --out-dir database",
-    "test": "yarn build && babel example --out-dir test"
+    "build": "babel src --out-dir validate"
   },
   "files": [
-    "/database"
+    "/validate"
   ],
-  "dependencies": {
-    "ioredis": "^5.3.2",
-    "mongodb": "^6.1.0",
-    "mysql": "^2.18.1"
-  },
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kaadon/npm_plugins_database.git"
+    "url": "https://github.com/kaadon/npm_plugins_validate.git"
   },
   "devDependencies": {
     "@babel/cli": "^7",
